@@ -1,3 +1,25 @@
+# Dream Diffusion Large Language Model Server
+Original Repo is here: [HKUNLP/Dream](https://github.com/HKUNLP/Dream)
+
+## How to Use
+This repository is managed with uv.
+```bash
+uv sync
+```
+
+### serve
+```bash
+uv run bash scripts/serve.sh
+```
+
+### client 
+```
+uv run bash scripts/client.sh
+```
+
+---
+The following is the content of the original `README.md` .
+
 # Dream 7B
 [![Static Badge](https://img.shields.io/badge/📰-Blog-red)](https://hkunlp.github.io/blog/2025/dream/)
 [![Static Badge](https://img.shields.io/badge/📰-Demo-green)](https://huggingface.co/spaces/multimodalart/Dream)
@@ -6,7 +28,6 @@
 [![Static Badge](https://img.shields.io/badge/Hugging%20Face%20🤗-Dream%207B_Instruct-blue)](https://huggingface.co/Dream-org/Dream-v0-Instruct-7B)
 
 Dream is a 7B diffusion large language model that achieves competitive performance comparable to leading autoregressive models with a similar size.
-
 
 ## News
 
